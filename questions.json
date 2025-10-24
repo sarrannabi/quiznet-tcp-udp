@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "text": "Which protocol provides reliable, connection-oriented data delivery at the Transport Layer?",
+    "choices": ["UDP", "IP", "TCP", "HTTP"],
+    "answer": 2
+  },
+  {
+    "id": 2,
+    "text": "What is the main difference between TCP and UDP?",
+    "choices": [
+      "TCP is connectionless, UDP is connection-oriented",
+      "UDP provides reliability, TCP does not",
+      "TCP ensures reliable delivery, UDP does not",
+      "They are both connection-oriented"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "text": "Which mechanism is used by TCP to ensure data is received correctly?",
+    "choices": [
+      "Checksums only",
+      "Acknowledgements and retransmissions",
+      "Connectionless multiplexing",
+      "Hop-by-hop error correction"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "text": "Which Transport Layer protocol is typically used for real-time applications such as video streaming?",
+    "choices": ["UDP", "TCP", "ICMP", "SCTP"],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "text": "How does TCP establish a connection between a client and server?",
+    "choices": [
+      "Two-way handshake",
+      "Three-way handshake",
+      "Four-way handshake",
+      "Random synchronization"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "text": "What is the purpose of port numbers in the Transport Layer?",
+    "choices": [
+      "Identify routers on the network",
+      "Specify MAC addresses",
+      "Identify sending and receiving applications",
+      "Determine packet priority"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 7,
+    "text": "Which of the following TCP features controls the amount of data that can be sent before an acknowledgement is received?",
+    "choices": [
+      "Flow control (window size)",
+      "Checksum",
+      "Routing table",
+      "Segmentation"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 8,
+    "text": "What type of service does UDP provide?",
+    "choices": [
+      "Reliable byte stream",
+      "Unreliable datagram service",
+      "Virtual circuit",
+      "Error-corrected stream"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "text": "During TCP connection termination, how many segments are exchanged?",
+    "choices": ["2", "3", "4", "5"],
+    "answer": 2
+  },
+  {
+    "id": 10,
+    "text": "Which field in the TCP header is used to detect duplicate or lost segments?",
+    "choices": [
+      "Checksum field",
+      "Sequence number field",
+      "Window size field",
+      "Urgent pointer field"
+    ],
+    "answer": 1
+  }
+]
